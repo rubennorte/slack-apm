@@ -1,0 +1,37 @@
+{
+  "name": "slack-apm",
+  "version": "1.0.0",
+  "description": "Slack command to display APM? (TV3 show) videos",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./server.js"
+  },
+  "keywords": [
+    "slack",
+    "apm",
+    "apm?",
+    "tv3",
+    "youtube",
+    "videos"
+  ],
+  "author": "Rubén Norte <rubennorte@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubennorte/slack-apm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rubennorte/slack-apm/issues"
+  },
+  "homepage": "https://github.com/rubennorte/slack-apm#readme",
+  "dependencies": {
+    "axios": "^0.14.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "http-errors": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
